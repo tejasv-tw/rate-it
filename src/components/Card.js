@@ -11,6 +11,7 @@ const Card = ({ data, handlEdit, handleDelete, handleView }) => {
       </div>
       <button onClick={handlEdit}>Edit</button>
       <button onClick={handleDelete}>Delete</button>
+      <button onClick={handleView}>View</button>
     </>
   );
 };
